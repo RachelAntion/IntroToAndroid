@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:paddingTop="20dp"
+      android:gravity="center_horizontal">
+    <Button
+        android:id="@+id/Fragment1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fragment 1"
+        android:onClick="showFragment1"/>
+    <Button
+        android:id="@+id/Fragment2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fragment 2"
+        android:onClick="showFragment2"/>
+    <Button
+        android:id="@+id/Fragment3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fragment 3"
+        android:onClick="showFragment3"/>
+    <Button
+        android:id="@+id/Fragment4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fragment 4"
+        android:onClick="showFragment4"/>
+
+  </LinearLayout>
+
+  <FrameLayout
+      android:id="@+id/Fragment"
+      android:padding="20dp"
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="1"/>
+
+</LinearLayout>

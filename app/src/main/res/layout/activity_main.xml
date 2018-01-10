@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.clover.introtoandroid.MainActivity">
+
+
+  <Button
+      android:id="@+id/FragmentActivityButton"
+      style="@style/HomeButton"
+      android:text="Fragment Activity"/>
+  <Button
+      android:id="@+id/ListFragmentActivityButton"
+      style="@style/HomeButton"
+      android:text="List Fragment Activity"/>
+  <Button
+      android:id="@+id/ServicesActivityButton"
+      style="@style/HomeButton"
+      android:text="Services Activity"/>
+  <Button
+      android:id="@+id/ImplicitIntentActivity"
+      style="@style/HomeButton"
+      android:text="Implicit Intent Activity"/>
+
+
+
+</LinearLayout>
